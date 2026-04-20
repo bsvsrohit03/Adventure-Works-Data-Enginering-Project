@@ -193,7 +193,7 @@ gold      ← external tables from Synapse
 
 ---
 
-## Key Learnings & Interview Talking Points
+## Key Learnings
 
 - **Dynamic vs static pipelines**: Built ForEach loop with parameterized JSON instead of repeating copy activities — reduced pipeline complexity by 8x
 - **Medallion architecture**: Bronze preserves raw data integrity, Silver applies business transformations, Gold serves analytics-ready star schema
@@ -211,7 +211,7 @@ gold      ← external tables from Synapse
 
 ## Dataset
 
-**Source:** AdventureWorks (Microsoft sample dataset)  
+**Source:** [AdventureWorks](https://www.kaggle.com/datasets/ukveteran/adventure-works?resource=download)
 **Tables:** 8 tables — Sales (2015/16/17), Returns, Products, Customers, Calendar, Territories  
 **Total records:** ~84,000 sales transactions across 3 years  
 **Coverage:** 6 countries, 3 product categories, 2015–2017
